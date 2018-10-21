@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2" level="2" version="1">
+   <model id="CNA_stoichiometric_model" name="CNA_stoichiometric_model">
+      <listOfCompartments>
+         <compartment id="Internal_Species" constant="true"/>
+      </listOfCompartments>
+      <listOfSpecies>
+         <species id="S1" name="Species1" boundaryCondition="false" compartment="Internal_Species" constant="false" hasOnlySubstanceUnits="false"/>
+         <species id="S2" name="Species2" boundaryCondition="false" compartment="Internal_Species" constant="false" hasOnlySubstanceUnits="false"/>
+         <species id="S3" name="Species3" boundaryCondition="false" compartment="Internal_Species" constant="false" hasOnlySubstanceUnits="false"/>
+         <species id="S4" name="Species4" boundaryCondition="false" compartment="Internal_Species" constant="false" hasOnlySubstanceUnits="false"/>
+         <species id="S5" name="Species5" boundaryCondition="false" compartment="Internal_Species" constant="false" hasOnlySubstanceUnits="false"/>
+         <species id="S6" name="Species6" boundaryCondition="false" compartment="Internal_Species" constant="false" hasOnlySubstanceUnits="false"/>
+         <species id="S7" name="Species7" boundaryCondition="false" compartment="Internal_Species" constant="false" hasOnlySubstanceUnits="false"/>
+         <species id="S8" name="Species8" boundaryCondition="false" compartment="Internal_Species" constant="false" hasOnlySubstanceUnits="false"/>
+         <species id="S9" name="Species9" boundaryCondition="false" compartment="Internal_Species" constant="false" hasOnlySubstanceUnits="false"/>
+         <species id="S10" name="Species10" boundaryCondition="false" compartment="Internal_Species" constant="false" hasOnlySubstanceUnits="false"/>
+         <species id="S11" name="Species11" boundaryCondition="false" compartment="Internal_Species" constant="false" hasOnlySubstanceUnits="false"/>
+         <species id="S12" name="Species12" boundaryCondition="false" compartment="Internal_Species" constant="false" hasOnlySubstanceUnits="false"/>
+         <species id="S13" name="Species13" boundaryCondition="false" compartment="Internal_Species" constant="false" hasOnlySubstanceUnits="false"/>
+         <species id="S14" name="Species14" boundaryCondition="false" compartment="Internal_Species" constant="false" hasOnlySubstanceUnits="false"/>
+      </listOfSpecies>
+      <listOfReactions>
+         <reaction id="R1" name="R1" fast="false" reversible="true">
+            <listOfReactants>
+               <speciesReference species="S7" stoichiometry="0.5" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="S8" stoichiometry="0.25" constant="true"/>
+               <speciesReference species="S9" stoichiometry="0.75" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R2" name="R2" fast="false" reversible="true">
+            <listOfReactants>
+               <speciesReference species="S7" stoichiometry="2" constant="true"/>
+               <speciesReference species="S8" stoichiometry="0.5" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="S3" stoichiometry="1" constant="true"/>
+               <speciesReference species="S9" stoichiometry="1.5" constant="true"/>
+               <speciesReference species="S11" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R3" name="R3" fast="false" reversible="true">
+            <listOfReactants>
+               <speciesReference species="S3" stoichiometry="1" constant="true"/>
+               <speciesReference species="S6" stoichiometry="2" constant="true"/>
+               <speciesReference species="S8" stoichiometry="1" constant="true"/>
+               <speciesReference species="S9" stoichiometry="6" constant="true"/>
+               <speciesReference species="S11" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="S7" stoichiometry="9" constant="true"/>
+               <speciesReference species="S13" stoichiometry="2" constant="true"/>
+               <speciesReference species="S14" stoichiometry="2" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R4" name="R4" fast="false" reversible="true">
+            <listOfReactants>
+               <speciesReference species="S7" stoichiometry="7" constant="true"/>
+               <speciesReference species="S13" stoichiometry="2" constant="true"/>
+               <speciesReference species="S14" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="S3" stoichiometry="1" constant="true"/>
+               <speciesReference species="S6" stoichiometry="1" constant="true"/>
+               <speciesReference species="S8" stoichiometry="0.5" constant="true"/>
+               <speciesReference species="S9" stoichiometry="4.5" constant="true"/>
+               <speciesReference species="S11" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R5" name="R5" fast="false" reversible="true">
+            <listOfReactants>
+               <speciesReference species="S14" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="S1" stoichiometry="1" constant="true"/>
+               <speciesReference species="S6" stoichiometry="1" constant="true"/>
+               <speciesReference species="S13" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R6" name="R6" fast="false" reversible="true">
+            <listOfProducts>
+               <speciesReference species="S1" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R7" name="R7" fast="false" reversible="true">
+            <listOfReactants>
+               <speciesReference species="S7" stoichiometry="11" constant="true"/>
+               <speciesReference species="S13" stoichiometry="4" constant="true"/>
+               <speciesReference species="S14" stoichiometry="2" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="S6" stoichiometry="2" constant="true"/>
+               <speciesReference species="S8" stoichiometry="2.5" constant="true"/>
+               <speciesReference species="S9" stoichiometry="7.5" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R8" name="R8" fast="false" reversible="true">
+            <listOfReactants>
+               <speciesReference species="S2" stoichiometry="1" constant="true"/>
+               <speciesReference species="S5" stoichiometry="1" constant="true"/>
+               <speciesReference species="S8" stoichiometry="1" constant="true"/>
+               <speciesReference species="S10" stoichiometry="1" constant="true"/>
+               <speciesReference species="S14" stoichiometry="2" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="S6" stoichiometry="1" constant="true"/>
+               <speciesReference species="S9" stoichiometry="1" constant="true"/>
+               <speciesReference species="S11" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R9" name="R9" fast="false" reversible="true">
+            <listOfReactants>
+               <speciesReference species="S7" stoichiometry="2" constant="true"/>
+               <speciesReference species="S11" stoichiometry="1" constant="true"/>
+               <speciesReference species="S12" stoichiometry="1" constant="true"/>
+               <speciesReference species="S13" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="S2" stoichiometry="1" constant="true"/>
+               <speciesReference species="S8" stoichiometry="1.5" constant="true"/>
+               <speciesReference species="S9" stoichiometry="1.5" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R10" name="R10" fast="false" reversible="true">
+            <listOfProducts>
+               <speciesReference species="S2" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R11" name="R11" fast="false" reversible="true">
+            <listOfProducts>
+               <speciesReference species="S3" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R12" name="R12" fast="false" reversible="true">
+            <listOfReactants>
+               <speciesReference species="S7" stoichiometry="2" constant="true"/>
+               <speciesReference species="S13" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="S8" stoichiometry="0.5" constant="true"/>
+               <speciesReference species="S9" stoichiometry="1.5" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R13" name="R13" fast="false" reversible="true">
+            <listOfReactants>
+               <speciesReference species="S8" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="S11" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R14" name="R14" fast="false" reversible="true">
+            <listOfReactants>
+               <speciesReference species="S7" stoichiometry="2" constant="true"/>
+               <speciesReference species="S13" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="S4" stoichiometry="1" constant="true"/>
+               <speciesReference species="S8" stoichiometry="0.5" constant="true"/>
+               <speciesReference species="S9" stoichiometry="1.5" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R15" name="R15" fast="false" reversible="true">
+            <listOfProducts>
+               <speciesReference species="S4" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R16" name="R16" fast="false" reversible="true">
+            <listOfReactants>
+               <speciesReference species="S7" stoichiometry="2" constant="true"/>
+               <speciesReference species="S13" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="S8" stoichiometry="0.5" constant="true"/>
+               <speciesReference species="S9" stoichiometry="1.5" constant="true"/>
+               <speciesReference species="S11" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R17" name="R17" fast="false" reversible="true">
+            <listOfReactants>
+               <speciesReference species="S7" stoichiometry="4" constant="true"/>
+               <speciesReference species="S12" stoichiometry="1" constant="true"/>
+               <speciesReference species="S13" stoichiometry="2" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="S8" stoichiometry="2" constant="true"/>
+               <speciesReference species="S9" stoichiometry="3" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R18" name="R18" fast="false" reversible="true">
+            <listOfReactants>
+               <speciesReference species="S7" stoichiometry="2" constant="true"/>
+               <speciesReference species="S11" stoichiometry="1" constant="true"/>
+               <speciesReference species="S13" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="S8" stoichiometry="1.5" constant="true"/>
+               <speciesReference species="S9" stoichiometry="1.5" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R19" name="R19" fast="false" reversible="true">
+            <listOfReactants>
+               <speciesReference species="S7" stoichiometry="2" constant="true"/>
+               <speciesReference species="S11" stoichiometry="1" constant="true"/>
+               <speciesReference species="S12" stoichiometry="1" constant="true"/>
+               <speciesReference species="S13" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="S5" stoichiometry="1" constant="true"/>
+               <speciesReference species="S8" stoichiometry="1.5" constant="true"/>
+               <speciesReference species="S9" stoichiometry="1.5" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R20" name="R20" fast="false" reversible="true">
+            <listOfProducts>
+               <speciesReference species="S5" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R21" name="R21" fast="false" reversible="true">
+            <listOfProducts>
+               <speciesReference species="S6" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R22" name="R22" fast="false" reversible="true">
+            <listOfProducts>
+               <speciesReference species="S7" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R23" name="R23" fast="false" reversible="true">
+            <listOfProducts>
+               <speciesReference species="S8" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R24" name="R24" fast="false" reversible="true">
+            <listOfProducts>
+               <speciesReference species="S9" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R25" name="R25" fast="false" reversible="true">
+            <listOfProducts>
+               <speciesReference species="S10" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R26" name="R26" fast="false" reversible="true">
+            <listOfProducts>
+               <speciesReference species="S11" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R27" name="R27" fast="false" reversible="true">
+            <listOfProducts>
+               <speciesReference species="S12" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R28" name="R28" fast="false" reversible="true">
+            <listOfProducts>
+               <speciesReference species="S13" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R29" name="R29" fast="false" reversible="true">
+            <listOfProducts>
+               <speciesReference species="S14" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+      </listOfReactions>
+   </model>
+</sbml>

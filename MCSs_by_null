@@ -1,0 +1,5 @@
+sz = size(transposed_null);
+rows_tn = sz(1);
+columns_tn = sz(2);
+
+all_null_rev = ones([1,columns_tn])

@@ -1,0 +1,9 @@
+NADH::QH2   ATPdrain   Succ_in   QH2::O2   c2::O2   QH2::c2   ATPSynthase   Photo   NADH_in   Succ::QH2   O2_in
+1   1   1   0   0   1   1   0   1   1   0
+QH2  1  0  0 -1  0 -1  0  1  0  1  0
+c2-red  0  0  0  0 -2  2  0 -2  0  0  0
+Hp  4  0  0  2  2  4 -3  0  0  0  0
+ATP  0 -1  0  0  0  0  1  0  0  0  0
+NADH  -1  0  0  0  0  0  0  0  1  0  0
+Succ  0  0  1  0  0  0  0  0  0 -1  0
+O2  0           0           0        -0.5        -0.5           0           0           0           0           0           1

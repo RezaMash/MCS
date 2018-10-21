@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2" level="2" version="1">
+   <model id="CNA_stoichiometric_model" name="CNA_stoichiometric_model">
+      <listOfCompartments>
+         <compartment id="Internal_Species" constant="true"/>
+      </listOfCompartments>
+      <listOfSpecies>
+         <species id="S1" name="Species1" boundaryCondition="false" compartment="Internal_Species" constant="false" hasOnlySubstanceUnits="false"/>
+      </listOfSpecies>
+      <listOfReactions>
+         <reaction id="R1" name="R1" fast="false" reversible="false">
+         </reaction>
+      </listOfReactions>
+   </model>
+</sbml>
