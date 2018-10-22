@@ -1,0 +1,7 @@
+[submodule "MongooseGUI3"]
+	path = MongooseGUI3
+	url = https://github.com/WGS-TB/MongooseGUI3.git
+
+[submodule "cobratoolbox"]
+	path = flux_mode_calculator/cobratoolbox
+	url = https://github.com/opencobra/cobratoolbox.git
