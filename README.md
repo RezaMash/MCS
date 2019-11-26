@@ -39,3 +39,6 @@ Flux mode calculator, CellNetAnalayzer, and MoongooseGUI3 are implementations do
 
 ### Implementation details for other methods
 We used MATLAB for other implementations
+
+#### Target Specific dual method
+We implemented this method with MATLAB using Flux Mode Calculator
