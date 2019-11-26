@@ -42,3 +42,6 @@ We used MATLAB for other implementations
 
 #### Target Specific dual method
 We implemented this method with MATLAB using Flux Mode Calculator
+
+### Berge
+We used the CellNetAnalyszer version of the Berge.
