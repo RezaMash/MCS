@@ -36,3 +36,6 @@ By running `SBML_to_All_other_format.py` in MongooseGUI3 folder you will have ma
 
 ## Other implementations
 Flux mode calculator, CellNetAnalayzer, and MoongooseGUI3 are implementations done by other people and was added here.
+
+### Implementation details for other methods
+We used MATLAB for other implementations
